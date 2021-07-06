@@ -49,4 +49,12 @@ public class post {
         this.otp = otp;
     }
 
+    @Override
+    public String toString() {
+        return "post{" +
+                "phone='" + phone + '\'' +
+                ", otp='" + otp + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
